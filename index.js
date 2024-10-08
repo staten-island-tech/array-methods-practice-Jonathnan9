@@ -5,4 +5,8 @@ const students = [
   { name: "Diana", age: 23, grade: 95 },
 ];
 
-students.forEach((student) => console.log(student.grade));
+// students.forEach((student) => console.log(student.name, student.grade));
+/* const topStudents = students.filter((student) => student.grade > 80);
+console.log(topStudents); */
+
+students.forEach((student) => console.log(student.grade > 80));
